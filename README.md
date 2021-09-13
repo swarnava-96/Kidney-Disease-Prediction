@@ -3,7 +3,7 @@
 #### Goal: To develop a POC using Flask, HTML and CSS for predicting whether a person is suffering from Kidney Disease or not, implementing Machine Learning algorithm.
 
 ### About the Data set: 
-This is a machine learning project where we will predict whether a person is suffering from a Kidney Disease or not. The dataset was downloaded from Kaggle. The data was taken over a 2-month period in India with 25 features ( eg, red blood cell count, white blood cell count, etc). The target is the 'classification', which is either 'ckd' or 'notckd' - ckd=chronic kidney disease. There are 400 rows. A binary classification problem statement.
+This is a machine learning project where we will predict whether a person is suffering from a Kidney Disease or not. The dataset was downloaded from [Kaggle](https://www.kaggle.com/mansoordaku/ckdisease). The data was taken over a 2-month period in India with 25 features ( eg, red blood cell count, white blood cell count, etc). The target is the 'classification', which is either 'ckd' or 'notckd' - ckd=chronic kidney disease. There are 400 rows. A binary classification problem statement.
 
 ### Project Description: 
 After loading the dataset("kidney_disease.csv") the first step was to perform an extensive Exploratory Data Analysis(EDA). Initially,the features were renamed for better understanding. Then the dataset was divided into numerical and categorical features. All the vaues of the categorical features were analysed and data cleaning was performed. Then countplots were created for the categorical features to check the unique values. Count plos for the target was also made to check whether the dataset is balanced or not.
